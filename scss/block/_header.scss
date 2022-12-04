@@ -1,0 +1,156 @@
+header {
+    margin: 0 auto;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.extra-logo {
+    display: none;
+}
+
+.site-header {
+
+    display: flex;
+    align-items: center;
+    padding-top: 28px;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding-left: 20px;
+    width: 115px;
+    height: 40px;
+}
+
+.header__nav a {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primaryColor);
+    margin-left: 28px;
+
+}
+
+.header__input {
+    margin-left: 36px;
+    margin-right: 14px;
+}
+
+.header__input,
+input {
+    display: flex;
+    align-items: center;
+    background-color: var(--secondaryColor);
+    border-radius: 46px;
+
+    ::placeholder {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #99A2A5;
+    }
+
+}
+
+.header__input img {
+    padding-left: 15px;
+}
+
+.header__input input {
+    outline: none;
+    border: none;
+    padding: 12px 0;
+    padding-left: 16px;
+}
+
+.header__link {
+    background: #003459;
+    border-radius: 57px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 28px;
+    color: var(--secondaryColor);
+    margin-right: 50px;
+}
+
+.header__lang {
+    background-color: inherit;
+}
+
+
+
+.select-selected {
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+
+}
+
+select .site-header__option {
+    background-color: #FCEED5;
+    outline: none;
+    border: none;
+    font-size: 24px;
+}
+
+.header__lang {
+    outline: none;
+    border: none;
+    padding-right: 20px;
+    background-color: #FCEED5;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+.search {
+    display: none;
+}
+
+@media screen and (max-width:1170px) {
+    .header__link {
+        display: none;
+    }
+}
+
+@media screen and (max-width:900px) {
+    nav {
+        display: none;
+    }
+
+    .header__input {
+        display: none;
+    }
+
+    .header__link {
+        display: none;
+    }
+
+    select {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .search {
+        display: block;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .extra-logo {
+        display: block;
+        width: 92px;
+        height: 32px;
+        margin: 0 auto;
+    }
+
+}

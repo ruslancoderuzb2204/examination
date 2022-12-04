@@ -1,0 +1,89 @@
+.adoption {
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+    border-radius: 25px;
+    overflow: hidden;
+    background-size: cover;
+    height: 373px;
+    background-image: url(../../img/Banner\ \(3\).png);
+}
+
+.adoption__content h2 {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 68px;
+    color: #003459;
+    margin-bottom: 10px;
+}
+
+.adoption__content h2::after {
+    content: url(../../img/Vector\ \(1\).svg);
+}
+
+.adoption__content span {
+    max-width: 250px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #242B33;
+    margin-bottom: 42px;
+
+}
+
+.adoption__content {
+    padding-left: 60px;
+}
+
+.adoption__content p {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #003459;
+    margin-bottom: 15px;
+
+}
+
+.adoption__img img {
+    height: 373px;
+    max-width: 650px;
+}
+
+.adoption__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adoption__first-icon {
+    display: flex;
+    max-width: 165px;
+    align-items: center;
+    padding: 7px 28px 5px 28px;
+    border: 1.5px solid var(--primaryColor);
+    border-radius: 57px;
+    color: #003459;
+}
+
+.adoption__links {
+    display: flex;
+    gap: 20px;
+}
+
+.adoption__links img {
+    width: 20px;
+    height: 20px;
+}
+
+.adoption__btn {
+    background: var(--primaryColor);
+    border-radius: 57px;
+    color: #FDFDFD;
+    padding: 14px 35px 10px 35px;
+}
+@media screen and (max-width:940px) {
+    .adoption{
+        display: none;
+    }
+}

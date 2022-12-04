@@ -1,0 +1,198 @@
+.add {
+    background-image: url(../../img/Herro\ Banner.png);
+    background-repeat: no-repeat;
+    background-position: right 100px 50px;
+    margin-bottom: 60px;
+    border-radius: 25px;
+
+}
+
+.hero {
+    padding: 20px;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero__first-icon {
+    display: flex;
+    align-items: center;
+}
+
+.hero__first-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58px;
+    color: #002A48;
+    max-width: 510px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.hero__content span {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    color: #002A48;
+    max-width: 510px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+}
+
+.hero__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242B33;
+    max-width: 400px;
+    margin-bottom: 15px;
+}
+
+.hero__img img {
+    max-width: 600px;
+}
+
+.hero__links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero__first-icon {
+    padding: 7px 28px 5px 28px;
+    border: 1.5px solid var(--primaryColor);
+    border-radius: 57px;
+    color: #003459;
+}
+
+.hero__btn {
+    background: var(--primaryColor);
+    border-radius: 57px;
+    color: #FDFDFD;
+    padding: 14px 35px 10px 35px;
+}
+
+@media screen and (max-width:1018px) {
+    .hero {
+        padding: 20px;
+        padding-bottom: 0;
+        flex-direction: column;
+    }
+
+    .hero__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        max-width: 100%;
+        text-align: center;
+
+    }
+
+    .hero__content {
+        max-width: 75%;
+        text-align: center;
+    }
+
+    .hero__content span {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero__text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero__links {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .hero__img {
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .add {
+        background-image: url(../../img/Herro\ Banner\ \(2\).png);
+        background-repeat: no-repeat;
+        background-position: 50%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hero__title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 100%;
+        text-align: start;
+        margin-bottom: 5px;
+
+    }
+
+    .hero__content {
+        max-width: 100%;
+        text-align: start;
+    }
+
+    .hero__content span {
+        font-weight: 600;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 28px;
+        max-width: 100%;
+        text-align: start;
+        margin-bottom: 7px;
+
+    }
+
+    .hero {
+        padding-bottom: 0;
+    }
+
+    .hero__text {
+        max-width: 100%;
+        text-align: start;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .hero__links {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hero__img {
+        max-width: 550px;
+    }
+
+    .hero__first-icon {
+        padding: 5px 20px 5px 20px;
+        border: 1.5px solid #003459;
+        border-radius: 57px;
+        color: #003459;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .hero__btn {
+        background: #003459;
+        font-size: 12px;
+        line-height: 16px;
+        border-radius: 57px;
+        color: #FDFDFD;
+        padding: 10px 25px 7px 25px;
+    }
+}
